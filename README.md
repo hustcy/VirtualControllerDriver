@@ -1,3 +1,19 @@
+##Branch Update
+1.SteamVR configuration path is updated.
+2.The related libs config were set in the same folder of this project's root Dir. e.g.
+-|
+ |-VirtualControlerDriver
+ |-openvr
+ |-Boost
+
+3.openvr version should be 1.0.1.  The latest version changed or removed some interfaces this project use.
+
+The detail info
+http://www.cnblogs.com/holohunter/p/6525269.html
+
+
+--- Original readme ---
+
 *For detailed instructions on how to use this to create mixed reality videos with two controllers read http://secondreality.co.uk/blog/how-to-create-mixed-reality-videos-for-the-vive-with-two-controllers/*
 
 #Virtual Controller Driver#
@@ -35,3 +51,4 @@ There are two approaches:
 * Use the virtual controller as the third controller. This allows you to use both Vive controllers while recording. Because this virtual controller cannot currently be moved, it means that the position and rotation of your camera must be entered into externalcamera.cfg. I'm currently working on a tool that will allow you to find the position and rotation of a physical camera.
 
 *For detailed instructions on how to use this to create mixed reality videos with two controllers read http://secondreality.co.uk/blog/how-to-create-mixed-reality-videos-for-the-vive-with-two-controllers/*
+
